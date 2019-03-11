@@ -1,6 +1,3 @@
-import '@styles/main.scss';
-import '@/index.html';
-
 import { GetBacon } from './utils';
 const baconEl = document.querySelector('.bacon');
 GetBacon()

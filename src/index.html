@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>A website</title>
+    <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
 <div class="wrapper">
@@ -14,12 +15,13 @@
     <main>
         <h2>This site rocks 🤘🤘</h2>
         <div class="bacon">
-            <img src="${require('./assets/images/oval.svg')}" alt="loading">
+            <img src="./assets/images/oval.svg" alt="loading">
         </div>
     </main>
     <footer>
         <p>Made with ❤️ by <a href="https://twitter.com/_esausilva" target="_blank">Esau Silva</a></p>
     </footer>
 </div>
+<script src="./scripts/main.js"></script>
 </body>
 </html>
